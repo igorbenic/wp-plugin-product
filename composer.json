@@ -1,0 +1,19 @@
+{
+  "name": "wp-plugin-product",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/igorbenic/wp-plugin-library"
+    }
+  ],
+  "require" : {
+    "igorbenic/wp-plugin-library": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "inc/{$name}": ["igorbenic/wp-plugin-library"]
+    }
+  }
+}
